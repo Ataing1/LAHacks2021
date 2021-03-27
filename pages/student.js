@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import styles from '../styles/student.module.css'
+import styles from '../styles/student.module.css';
 
-export default function Test() {
+export default function student() {
     return (
         // should it be a html video element?
         <div>
