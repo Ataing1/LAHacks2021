@@ -1,7 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Firestore from "./testing";
+
+
 
 export default function Home() {
+
+
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -18,6 +24,7 @@ export default function Home() {
 					Get started by editing{' '}
 					<code className={styles.code}>pages/index.js</code>
 				</p>
+				<Firestore>poop</Firestore>
 
 				<div className={styles.grid}>
 					<a href="https://nextjs.org/docs" className={styles.card}>
