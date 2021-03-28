@@ -10,10 +10,11 @@ export default function Firestore() {
 }
 
 function callFirestore(){
+
 	axios.get('/api/entry')
 		.then(function (response) {
 			// handle success
-			console.log("response", response);
+			console.log("response", response.data);
 		})
 		.catch(function (error) {
 			// handle error
